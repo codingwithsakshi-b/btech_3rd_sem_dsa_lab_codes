@@ -55,12 +55,11 @@ int main() {
     Stack s;
     int choice, value;
 
-    cout << "1. Push
-2. Pop
-3. Peek
-4. Display
-5. Exit
-";
+    cout << "1. Push\n"
+         << "2. Pop\n"
+         << "3. Peek\n"
+         << "4. Display\n"
+         << "5. Exit\n";
 
     do {
         cout << "Enter choice: ";
